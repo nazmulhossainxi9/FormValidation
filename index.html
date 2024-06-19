@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+</head>
+<body>
+    <div class="container">
+        <div class="text p-4  bg-warning">
+            <h1 class="text-center">Complex Forms Validation</h1>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <form class="p-3 form1">
+            <div class="mb-3">
+              <label class="form-label">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Password</label>
+              <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Remember Me</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+    </div>
+
+    <div class="container">
+        <input class="form-control" id="disabledInput" type="text" placeholder="Disabled input here..." disabled>
+    </div>
+
+    <div class="container">
+        <form class="row g-3">
+            <div class="col-auto">
+              <label for="staticEmail2" class="visually-hidden">Email</label>
+              <input type="text" readonly class="form-control-plaintext" id="staticEmail2" value="email@example.com">
+            </div>
+            <div class="col-auto">
+              <label for="inputPassword2" class="visually-hidden">Password</label>
+              <input type="password" class="form-control" id="inputPassword2" placeholder="Password">
+            </div>
+            <div class="col-auto">
+              <button type="submit" class="btn btn-primary mb-3">Admin</button>
+            </div>
+        </form>
+    </div>
+
+
+    <div class="container">
+      <div class="p-3 files">
+        <div class="file">
+          <h1 class="text-center mt-2 mb-4">Files Uploads (Single, Multiple, Small and Large File)</h1>
+        </div>
+        <div class="mb-3">
+          <label for="formFile" class="form-label">Default file input example</label>
+          <input class="form-control" type="file" id="formFile">
+        </div>
+        <div class="mb-3">
+          <label for="formFileMultiple" class="form-label">Multiple files input example</label>
+          <input class="form-control" type="file" id="formFileMultiple" multiple>
+        </div>
+        <div class="mb-3">
+          <label for="formFileDisabled" class="form-label">Disabled file input example</label>
+          <input class="form-control" type="file" id="formFileDisabled" disabled>
+        </div>
+        <div class="mb-3">
+          <label for="formFileSm" class="form-label">Small file input example</label>
+          <input class="form-control form-control-sm" id="formFileSm" type="file">
+        </div>
+        <div>
+          <label for="formFileLg" class="form-label">Large file input example</label>
+          <input class="form-control form-control-lg" id="formFileLg" type="file">
+        </div>
+      </div>
+    </div>
+
+
+
+    <div class="container">
+      <select class="form-select">
+        <option selected>Select Your Choice</option>
+        <option value="1">Books</option>
+        <option value="2">Cloths</option>
+        <option value="3">Games</option>
+      </select>
+    </div>
+
+
+    <div class="container">
+      <div class="checkboxes p-3 ">
+        <div class="title mt-2 mb-4">
+          <h1 class="text-center">Check Boxes</h1>
+        </div>
+        <div class="gender">
+          <h4 class="d-inline fs-5 ">Gender</h4>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">Male
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">Female
+          </div>
+      </div>
+      <div class="choice mt-3">
+        <h4 class="d-inline fs-5 ">Your Choices</h4>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="checkbox" name="inlineRadioOptions" id="inlineRadio1" value="option1">Books
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="checkbox" name="inlineRadioOptions" id="inlineRadio1" value="option1">Cricket
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="checkbox" name="inlineRadioOptions" id="inlineRadio1" value="option1">Singing
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="checkbox" name="inlineRadioOptions" id="inlineRadio1" value="option1">Travelling
+        </div>
+        </div>
+
+        <div class="form-check form-switch mt-3">
+          <input class="form-check-input" type="checkbox"><b>Dark Mode</b>
+        </div>
+      </div>
+    </div>
+
+
+<div class="container">
+  <div class="forms p-3 ">
+    <div class="title mt-2 mb-4">
+      <h1 class="text-center">Signup Form</h1>
+    </div>
+  
+  <form class="row g-3">
+    <div class="col-md-6">
+      <!-- <label for="inputEmail4" class="form-label">Email</label> -->
+      <input placeholder="Email Address" type="email" class="form-control" id="inputEmail4">
+    </div>
+    <div class="col-md-6">
+      <!-- <label for="inputPassword4" class="form-label">Password</label> -->
+      <input placeholder="Password" type="password" class="form-control" id="inputPassword4">
+    </div>
+    <div class="col-12">
+      <!-- <label for="inputAddress" class="form-label">Address</label> -->
+      <input type="text" class="form-control" id="inputAddress" placeholder="Permanent Address (Ex: 1234 Main St)">
+    </div>
+    <div class="col-12">
+      <!-- <label for="inputAddress2" class="form-label">Address 2</label> -->
+      <input type="text" class="form-control" id="inputAddress2" placeholder="Present Address (Apartment, studio, or floor)">
+    </div>
+    <div class="col-md-6">
+      <!-- <label for="inputCity" class="form-label">City</label> -->
+      <input readonly value="Bangladesh" type="text" class="form-control" id="inputCity">
+    </div>
+    <div class="col-md-4">
+      <!-- <label for="inputState" class="form-label">State</label> -->
+      <select id="inputState" class="form-select">
+        <option selected>Dhaka</option>
+        <option>Mymensingh</option>
+        <option>Barishal</option>
+        <option>Rajshahi</option>
+        <option>Khulna</option>
+      </select>
+    </div>
+    <div class="col-md-2">
+      <!-- <label for="inputZip" class="form-label">Zip</label> -->
+      <input placeholder="Zip Code" type="text" class="form-control" id="inputZip">
+    </div>
+    <div class="col-12">
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" id="gridCheck">
+        <label class="form-check-label" for="gridCheck">
+          Agree Terms & Conditions
+        </label>
+      </div>
+    </div>
+    <div class="col-12">
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </div>
+  </form>
+  </div>
+</div>
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

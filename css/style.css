@@ -1,0 +1,43 @@
+.text{
+    border-radius: 7px;
+}
+
+.container{
+    margin-top: 15px;
+    margin-bottom: 45px;
+}
+
+.form1{
+    background-color: rgb(255, 234, 196);
+    border-radius: 7px;
+}
+
+.file h1{
+    font-size: 20px;
+}
+
+.files{
+    background-color: rgb(199, 240, 255);
+    border-radius: 7px;
+}
+
+.checkboxes{
+    background-color: rgb(168, 255, 226);
+    border-radius: 7px;
+}
+.title h1{
+    font-size: 20px;
+}
+
+.gender h4{
+    margin-right: 15px;
+}
+.gender,.choice h4{
+    margin-right: 15px;
+}
+
+
+.forms{
+    background-color: rgb(255, 248, 218);
+    border-radius: 7px;
+}
